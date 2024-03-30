@@ -11,7 +11,7 @@ See https://codsen.com/os/ast-compare/ for examples.
 
 I have made a fork at https://github.com/ULL-ESIT-PL/codsen
 
-You can also use the check method of ast-type nodes to check consistency of the AST.
+You can also use the `check` method of ast-type nodes to check consistency of the AST.
 
 ```bash
 npm i ast-compare
