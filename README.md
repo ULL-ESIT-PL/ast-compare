@@ -1,4 +1,4 @@
-## ## AST comparison
+# AST comparison
 
 You can compare ASTs in different ways: 
 
