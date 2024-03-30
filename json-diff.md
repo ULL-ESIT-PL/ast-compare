@@ -1,5 +1,7 @@
 ## json-diff
 
+### Conclusion
+
 Not recommended.
 
 ### Installation of json-diff

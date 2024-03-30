@@ -10,6 +10,10 @@ See https://codsen.com/os/ast-compare/ for examples.
 
 I have made a fork at https://github.com/ULL-ESIT-PL/codsen
 
+### Conclusion
+
+Not recommended.
+
 ### Installation of ast-compare
 
 ```bash
