@@ -2,12 +2,12 @@
 
 You can compare ASTs in different ways: 
 
-- Use the npm package `json-diff-kit` to compare JSON files.
-- Use VSCode "select to compare" feature to compare the JSON files. Likely one of the best.
+1. Use VSCode "select to compare" feature to compare the JSON files. Likely one of the best.
   
   ![images/vscode.png](images/vscode.png)
-- Use the `check` method of ast-type nodes to check consistency of the AST.
-- Use an ordinary `diff` tool to compare JSON files.
+2. Use the npm package `json-diff-kit` to compare JSON files.
+3. Use the `check` method of ast-type nodes to check consistency of the AST.
+4. Use an ordinary `diff` tool to compare JSON files.
   
   ```diff
   ➜  ast-compare git:(main) diff actual-a-equal-4.json expected-a-equal-4.json 
@@ -22,9 +22,9 @@ You can compare ASTs in different ways:
     ---
     >             "type": "Literal"
     ```
-- Another way to compare JSON files is to use the website https://www.jsondiff.com/.
-- Use the npm package `ast-compare` to compare ASTs. 
-- Use the npm package `json-diff` to compare JSON files.
+5. Another way to compare JSON files is to use the website https://www.jsondiff.com/.
+6. Use the npm package `ast-compare` to compare ASTs. 
+7. Use the npm package `json-diff` to compare JSON files.
   
 ## json-diff-kit
 
