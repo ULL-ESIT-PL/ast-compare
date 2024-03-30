@@ -8,7 +8,8 @@ npm i ast-compare
 
 ## AST comparison
 
-See [compare-ast.mjs](compare-ast.mjs) for a more in-depth example.
+See [compare-ast.mjs](compare-ast.mjs) for the corresponding example. See the [actual-a-equal-4.json](actual-a-equal-4.json) and [expected-a-equal-4.json](expected-a-equal-4.json) files. The second is a subset of the first.
+
 
 ```js
 import { strict as assert } from "assert";
@@ -31,8 +32,6 @@ catch (e) {
 }
 console.error(`comparison result = ${result}`);
 ```
-
-See the [actual-a-equal-4.json](actual-a-equal-4.json) and [expected-a-equal-4.json](expected-a-equal-4.json) files. The second is a subset of the first.
 
 Example of execution:
 
