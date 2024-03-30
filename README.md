@@ -22,6 +22,7 @@ You can compare ASTs in different ways:
     ---
     >             "type": "Literal"
     ```
+    
 5. Another way to compare JSON files is to use the website https://www.jsondiff.com/.
 6. Use the npm package `ast-compare` to compare ASTs. 
 7. Use the npm package `json-diff` to compare JSON files.
